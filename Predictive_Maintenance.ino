@@ -118,7 +118,7 @@ void loop() {
       abs(accelZ_g) >= 1.25 && abs(accelZ_g) <= 1.75) {
     Serial.println("Motor vibration is high need a quick maintenance.");
   } 
-  else if (abs(accelX_g) > 1.75 || abs(accelY_g) > 1.75 || abs(accelZ_g) > 1.75) {
+  else if (abs(accelX_g) > 1.75 || abs(accelY_g) > 1.75 || abs(accelZ_g) > 1.75 {
     // If any axis exceeds 1.5g, it is too high.
     Serial.println("WARNING: Motor vibration is too high!");
   }
