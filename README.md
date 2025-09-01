@@ -1,7 +1,7 @@
 # Predictive-Maintenance
 This project monitors machine health in real time using temperature, vibration (MPU6050), and sound (microphone) sensors. It employs TinyML (Edge Impulse/TensorFlow Lite) for anomaly detection and predictive maintenance alerts (e.g., lubrication needed, overload, or normal operation). Includes:
 
-Features
+#Features
 
 Real-time monitoring of machine parameters
 
@@ -13,7 +13,7 @@ Dual relay control for automated machine response
 
 Data visualization via Serial Monitor (can be expanded to cloud).
 
-Hardware
+#Hardware
 
 ESP32 Development Board
 
@@ -28,7 +28,7 @@ Analog Microphone Module
 Power Supply (5V/3.3V depending on setup)
 
 
-Software & Tools
+#Software & Tools
 
 Arduino IDE (with ESP32 board package)
 
